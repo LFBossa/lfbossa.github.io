@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Site do Bossa</title><link href="https://lfbossa.github.io/" rel="alternate"></link><link href="https://lfbossa.github.io/feeds/all.atom.xml" rel="self"></link><id>https://lfbossa.github.io/</id><updated>2019-08-16T11:15:00-03:00</updated><entry><title>Minicurso de LaTeX</title><link href="https://lfbossa.github.io/minicurso-latex.html" rel="alternate"></link><published>2019-08-16T11:15:00-03:00</published><updated>2019-08-16T11:15:00-03:00</updated><author><name>Luiz Fernando Bossa</name></author><id>tag:lfbossa.github.io,2019-08-16:/minicurso-latex.html</id><summary type="html">&lt;p&gt;Minicurso de &lt;code&gt;LaTeX&lt;/code&gt; ministrado na Semana Acadêmica de Matemática, Agosto de 2019.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Coisas importantes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.overleaf.com/"&gt;Site do Overleaf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.overleaf.com/"&gt;Documentação do Overleaf&lt;/a&gt; (em inglês)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Slides da palestra:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Parte 1&lt;ul&gt;
+&lt;li&gt;Exercício 1&lt;/li&gt;
+&lt;li&gt;Exercício 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Parte 2&lt;/li&gt;
+&lt;li&gt;Parte 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Seja bem-vindo ao minicurso de &lt;code&gt;LaTeX&lt;/code&gt; da Semana Acadêmica da Matemática.&lt;/p&gt;</content><category term="latex"></category><category term="tutorial"></category></entry></feed>
