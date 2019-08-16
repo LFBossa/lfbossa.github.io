@@ -1,0 +1,10 @@
+{
+    "pages": [
+        {
+            "title": "Minicurso de LaTeX", 
+            "text":"Coisas importantes Site do Overleaf Documentação do Overleaf (em inglês) Slides da palestra: Parte 1 Exercício 1 Exercício 2 Parte 2 Parte 3 Seja bem-vindo ao minicurso de LaTeX da Semana Acadêmica da Matemática.", 
+            "tags": "cursos", 
+            "loc": "./minicurso-latex.html"
+        }        
+    ]
+}
