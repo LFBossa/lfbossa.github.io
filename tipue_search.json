@@ -1,8 +1,8 @@
 {
     "pages": [
         {
-            "title": "Minicurso de LaTeX", 
-            "text":"Coisas importantes Site do Overleaf Documentação do Overleaf (em inglês) Slides da palestra: Parte 1 Exercício 1 Exercício 2 Parte 2 Parte 3 Seja bem-vindo ao minicurso de LaTeX da Semana Acadêmica da Matemática.", 
+            "title": "Uma Introdução Interativa do LaTeX", 
+            "text":"Uma Introdução Interativa do L A TEX Coisas importantes Site do Overleaf Documentação do Overleaf (em inglês) Slides da palestra: Parte 1: O Básico Olá mundo Exercício 1 Exercício 2 Parte 2: Documentos Estruturados &amp; muito mais Olá mundo Artigo.pdf Artigo.tex imagem Arquivo .bib Parte 3: Não apenas Artigos: Apresentações &amp; Mais Exercício Recapitulação Solução Recapitulação Exercício Beamer 1 Exercício Beamer 2 imagem Seja bem-vindo ao minicurso de LaTeX da Semana Acadêmica da Matemática.", 
             "tags": "cursos", 
             "loc": "https://lfbossa.github.io/minicurso-latex.html"
         }        
