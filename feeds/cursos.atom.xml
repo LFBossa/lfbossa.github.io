@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Site do Bossa - cursos</title><link href="https://lfbossa.github.io/" rel="alternate"></link><link href="https://lfbossa.github.io/feeds/cursos.atom.xml" rel="self"></link><id>https://lfbossa.github.io/</id><updated>2019-08-16T11:15:00-03:00</updated><entry><title>Uma Introdução Interativa do LaTeX</title><link href="https://lfbossa.github.io/minicurso-latex.html" rel="alternate"></link><published>2019-08-16T11:15:00-03:00</published><updated>2019-08-16T11:15:00-03:00</updated><author><name>Luiz Fernando Bossa</name></author><id>tag:lfbossa.github.io,2019-08-16:/minicurso-latex.html</id><summary type="html">&lt;p&gt;Minicurso de &lt;code&gt;LaTeX&lt;/code&gt; ministrado na Semana Acadêmica de Matemática, Agosto de 2019.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Uma Introdução Interativa do L A TEX&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Site do Bossa - cursos</title><link href="https://lfbossa.github.io/" rel="alternate"></link><link href="https://lfbossa.github.io/feeds/cursos.atom.xml" rel="self"></link><id>https://lfbossa.github.io/</id><updated>2019-08-16T11:15:00-03:00</updated><entry><title>Uma Introdução Interativa do LaTeX</title><link href="https://lfbossa.github.io/minicurso-latex.html" rel="alternate"></link><published>2019-08-16T11:15:00-03:00</published><updated>2019-08-16T11:15:00-03:00</updated><author><name>Luiz Fernando Bossa</name></author><id>tag:lfbossa.github.io,2019-08-16:/minicurso-latex.html</id><summary type="html">&lt;p&gt;Minicurso de &lt;code&gt;LaTeX&lt;/code&gt; ministrado na Semana Acadêmica de Matemática, Agosto de 2019.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Uma Introdução Interativa do LaTeX&lt;/h1&gt;
 &lt;h2&gt;Coisas importantes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.overleaf.com/"&gt;Site do Overleaf&lt;/a&gt;&lt;/li&gt;
@@ -9,29 +9,26 @@
 &lt;li&gt;
 &lt;p&gt;Slides da palestra:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://lfbossa.github.io/pdf/part1.pdf"&gt;Parte 1&lt;/a&gt;: O Básico&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/basics.tex&amp;amp;splash=none"&gt;Olá mundo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/basics-exercise-1.tex&amp;amp;splash=none"&gt;Exercício 1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/basics-exercise-2.tex&amp;amp;splash=none"&gt;Exercício 2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://lfbossa.github.io/pdf/part2.pdf"&gt;Parte 2&lt;/a&gt;: Documentos Estruturados &amp;amp; muito mais&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/basics.tex&amp;amp;splash=none"&gt;Olá mundo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://raw.github.com/lrsantos11/latex-course/master/pt-br/structure-exercise-solution.pdf"&gt;Artigo.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/structure-exercise.tex&amp;amp;splash=none"&gt;Artigo.tex&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://raw.github.com/lrsantos11/latex-course/master/pt-br/gerbil.jpg?dl=1"&gt;imagem&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://raw.github.com/lrsantos11/latex-course/master/pt-br/bib-exercise.bib?dl=1"&gt;Arquivo .bib&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://lfbossa.github.io/pdf/part3.pdf"&gt;Parte 3&lt;/a&gt;: Não apenas Artigos: Apresentações &amp;amp; Mais&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/recap-exercise.tex&amp;amp;splash=none"&gt;Exercício Recapitulação&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://raw.github.com/lrsantos11/latex-course/master/pt-br/recap-exercise-solution.pdf"&gt;Solução Recapitulação&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/beamer-minimal.tex&amp;amp;splash=none"&gt;Exercício Beamer 1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/beamer-exercise.tex&amp;amp;splash=none"&gt;Exercício Beamer 2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://raw.github.com/lrsantos11/latex-course/master/pt-br/Cravos.png?dl=1"&gt;imagem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://lfbossa.github.io/pdf/part1.pdf"&gt;Parte 1&lt;/a&gt;: O Básico&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://lfbossa.github.io/pdf/part2.pdf"&gt;Parte 2&lt;/a&gt;: Documentos Estruturados &amp;amp; muito mais&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://lfbossa.github.io/pdf/part3.pdf"&gt;Parte 3&lt;/a&gt;: Não apenas Artigos: Apresentações &amp;amp; Mais&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Seja bem-vindo ao minicurso de LaTeX da Semana Acadêmica da Matemática.&lt;/p&gt;</content><category term="latex"></category><category term="tutorial"></category></entry></feed>
+&lt;p&gt;Seja bem-vindo ao minicurso de LaTeX da Semana Acadêmica da Matemática.&lt;/p&gt;
+&lt;p&gt;Após concluir o curso, deixe seu &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSdayFIn72lQstFI7rWDbkfTbnhsojs9ZoM4Rqzq75Nx0qDdzQ/viewform?usp=sf_link"&gt;Feedback&lt;/a&gt;.&lt;/p&gt;
+&lt;!---       * [Olá mundo](https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/basics.tex&amp;splash=none)
+        * [Exercício 1](https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/basics-exercise-1.tex&amp;splash=none)
+        * [Exercício 2](https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/basics-exercise-2.tex&amp;splash=none) ---&gt;
+
+&lt;!---       * [Olá mundo](https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/basics.tex&amp;splash=none)
+        * [Artigo.pdf](https://raw.github.com/lrsantos11/latex-course/master/pt-br/structure-exercise-solution.pdf)
+        * [Artigo.tex](https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/structure-exercise.tex&amp;splash=none)
+        * [imagem](https://raw.github.com/lrsantos11/latex-course/master/pt-br/gerbil.jpg?dl=1)
+        * [Arquivo .bib](https://raw.github.com/lrsantos11/latex-course/master/pt-br/bib-exercise.bib?dl=1) ---&gt;
+
+&lt;!---       * [Exercício Recapitulação](https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/recap-exercise.tex&amp;splash=none)
+        * [Solução Recapitulação](https://raw.github.com/lrsantos11/latex-course/master/pt-br/recap-exercise-solution.pdf)
+        * [Exercício Beamer 1](https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/beamer-minimal.tex&amp;splash=none)
+        * [Exercício Beamer 2](https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/beamer-exercise.tex&amp;splash=none)
+        * [imagem](https://raw.github.com/lrsantos11/latex-course/master/pt-br/Cravos.png?dl=1) ---&gt;</content><category term="latex"></category><category term="tutorial"></category></entry></feed>
