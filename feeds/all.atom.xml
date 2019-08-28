@@ -18,18 +18,8 @@
 &lt;/ul&gt;
 &lt;p&gt;Seja bem-vindo ao minicurso de LaTeX da Semana Acadêmica da Matemática.&lt;/p&gt;
 &lt;p&gt;Após concluir o curso, deixe seu &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSdayFIn72lQstFI7rWDbkfTbnhsojs9ZoM4Rqzq75Nx0qDdzQ/viewform?usp=sf_link"&gt;Feedback&lt;/a&gt;.&lt;/p&gt;
-&lt;!---       * [Olá mundo](https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/basics.tex&amp;splash=none)
-        * [Exercício 1](https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/basics-exercise-1.tex&amp;splash=none)
-        * [Exercício 2](https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/basics-exercise-2.tex&amp;splash=none) ---&gt;
-
-&lt;!---       * [Olá mundo](https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/basics.tex&amp;splash=none)
-        * [Artigo.pdf](https://raw.github.com/lrsantos11/latex-course/master/pt-br/structure-exercise-solution.pdf)
-        * [Artigo.tex](https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/structure-exercise.tex&amp;splash=none)
-        * [imagem](https://raw.github.com/lrsantos11/latex-course/master/pt-br/gerbil.jpg?dl=1)
-        * [Arquivo .bib](https://raw.github.com/lrsantos11/latex-course/master/pt-br/bib-exercise.bib?dl=1) ---&gt;
-
-&lt;!---       * [Exercício Recapitulação](https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/recap-exercise.tex&amp;splash=none)
-        * [Solução Recapitulação](https://raw.github.com/lrsantos11/latex-course/master/pt-br/recap-exercise-solution.pdf)
-        * [Exercício Beamer 1](https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/beamer-minimal.tex&amp;splash=none)
-        * [Exercício Beamer 2](https://www.overleaf.com/docs?snip_uri=https://raw.github.com/lrsantos11/latex-course/master/pt-br/beamer-exercise.tex&amp;splash=none)
-        * [imagem](https://raw.github.com/lrsantos11/latex-course/master/pt-br/Cravos.png?dl=1) ---&gt;</content><category term="latex"></category><category term="tutorial"></category></entry></feed>
+&lt;p&gt;Links úteis&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://lfbossa.github.io/pdf/latexsheet.pdf"&gt;Colinha de LaTeX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hartwork.org/beamer-theme-matrix/"&gt;Beamer Theme Matrix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="latex"></category><category term="tutorial"></category></entry></feed>
