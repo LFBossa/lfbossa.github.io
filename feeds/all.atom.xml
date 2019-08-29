@@ -18,8 +18,12 @@
 &lt;/ul&gt;
 &lt;p&gt;Seja bem-vindo ao minicurso de LaTeX da Semana Acadêmica da Matemática.&lt;/p&gt;
 &lt;p&gt;Após concluir o curso, deixe seu &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSdayFIn72lQstFI7rWDbkfTbnhsojs9ZoM4Rqzq75Nx0qDdzQ/viewform?usp=sf_link"&gt;Feedback&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.overleaf.com/read/wfpnzzgcbqnk"&gt;Documento que vou colocar alguns comandos extra&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Links úteis&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://lfbossa.github.io/pdf/latexsheet.pdf"&gt;Colinha de LaTeX&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://hartwork.org/beamer-theme-matrix/"&gt;Beamer Theme Matrix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.ctan.org/pkg/enumitem"&gt;&lt;code&gt;enumitem&lt;/code&gt; package&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><category term="latex"></category><category term="tutorial"></category></entry></feed>
