@@ -1,209 +1,169 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="pt" class="no-js lt-ie9 lt-ie8 lt-ie7" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/BlogPosting"> <![endif]-->
-<!--[if IE 7]>         <html lang="pt" class="no-js lt-ie9 lt-ie8" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/BlogPosting"> <![endif]-->
-<!--[if IE 8]>         <html lang="pt" class="no-js lt-ie9" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/BlogPosting"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="pt" class="no-js" prefix="og: http://ogp.me/ns#" itemscope itemtype="http://schema.org/BlogPosting"> <!--<![endif]-->
+<!doctype html>
+<html lang="pt" itemscope itemtype="http://schema.org/Person">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Uma Introdução Interativa do LaTeX</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Minicurso de LaTeX ministrado na Semana Acadêmica de Matemática, Agosto de 2019.">
-<link rel="shortcut icon" href="https://lfbossa.github.io/" type="">
-<meta name="author" content="Luiz Fernando Bossa">
-<meta name="copyright" content="Luiz Fernando Bossa">
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@" />
-<meta property="og:site_name" content="Site do Bossa" />
+            <meta charset="utf-8">
+        <!-- Site Meta Data -->
+        <title>Uma Introdução Interativa do LaTeX</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Luiz Fernando Bossa">
 
-<meta property="og:title" content="Uma introdução interativa do latex" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://lfbossa.github.io/minicurso-latex.html" />
-<meta name="twitter:title" content="Uma introdução interativa do latex" />
-<meta name="twitter:url" content="https://lfbossa.github.io/minicurso-latex.html" />
-<meta itemprop="url" content="https://lfbossa.github.io/minicurso-latex.html" />
-<meta property="og:description" content="Minicurso de LaTeX ministrado na Semana Acadêmica de Matemática, Agosto de 2019." />
-<meta name="twitter:description" content="Minicurso de LaTeX ministrado na Semana Acadêmica de Matemática, Agosto de 2019." />
-<meta property="og:article:published_time" content="2019-08-16" />
-<meta property="og:article:modified_time" content="2019-08-16">
-<meta itemprop="dateModified" content="2019-08-16" />
-<meta property="og:article:author" content="Luiz Fernando Bossa" >
-<meta property="og:article:tag" content="latex">
-<meta property="og:article:tag" content="tutorial">
+        <link rel="shortcut icon" href="url-to-favicon">
 
-<link href="https://lfbossa.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Site do Bossa ATOM Feed"/>
-<link href='//fonts.googleapis.com/css?family=Open+Sans:800italic' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.23.0/css/uikit.min.css">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.23.0/css/components/search.min.css">
-<link rel="stylesheet" href="https://lfbossa.github.io/theme/css/tipuesearch.css">
-<link rel="stylesheet" href="https://lfbossa.github.io/theme/css/solarized.css">
-<link rel="stylesheet" href="https://lfbossa.github.io/theme/css/main.css">
+        <!-- schema.org -->
+        <meta itemprop="name" content="Site do Bossa">
+        <meta itemprop="image" content="">
+        <meta itemprop="description" content="">
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+        <!-- Style Meta Data -->
+        <link rel="stylesheet" href="https://lfbossa.github.io/theme/css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="https://lfbossa.github.io/theme/css/pygments.css" type="text/css"/>
+
+        <!-- Feed Meta Data -->
+            <link href="https://lfbossa.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+                  title="Site do Bossa ATOM Feed"/>
+
+        <!-- Twitter Feed -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="">
+        <meta name="twitter:image" content="">
+
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:url" content="https://lfbossa.github.io/minicurso-latex.html">
+    <meta name="twitter:title" content="Site do Bossa ~ Uma Introdução Interativa do LaTeX">
+    <meta name="twitter:description" content="Minicurso de LaTeX ministrado na Semana Acadêmica de Matemática, Agosto de 2019.">
+
+    <!-- Facebook Meta Data -->
+    <meta property="og:title" content="Site do Bossa ~ Uma Introdução Interativa do LaTeX"/>
+    <meta property="og:description" content="Minicurso de LaTeX ministrado na Semana Acadêmica de Matemática, Agosto de 2019."/>
+    <meta property="og:image" content=""/>
 </head>
+
 <body>
-<!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-<header class=" mg-header uk-navbar uk-navbar-attached">
-
-    <div class="uk-container uk-container-center">
-
-        <a class="mg-brand uk-navbar-brand uk-hidden-small" href="https://lfbossa.github.io">Site do Bossa</a>
-        <div class="mg-tagline uk-navbar-content uk-hidden-small"></div>
-        <a class="uk-navbar-toggle uk-visible-small" href="#mg-offcanvas" data-uk-offcanvas></a>
-        <a class="mg-brand uk-navbar-brand uk-navbar-center uk-visible-small" href="https://lfbossa.github.io">Site do Bossa</a>
-
-    </div>
-</header>
-
-<main class="mg-main">
-
-<div class="uk-container uk-container-center">
-
-    <div class="uk-grid" data-uk-grid-margin>
-
-<div class="mg-container-social uk-width-medium-1-10 uk-hidden-small">
+<!-- Sidebar -->
+<aside>
+    <!--<center><a href="https://lfbossa.github.io"><img id="avatar" src=""></a></center>-->
+    <h1>Site do Bossa</h1>
+        <p>Matemático</p>
+    <br>
 
 
-</div>
+    <nav class="nav">
+        <ul class="list-bare">
 
-<div class="uk-width-medium-7-10">
-
-    <article class="uk-article">
-        <h1 class="uk-heading-large uk-article-title" itemprop="name">Uma Introdução Interativa do LaTeX</h1>
-        <p class="uk-article-meta"><time datetime="2019-08-16" itemprop="datePublished">sex 16 agosto 2019</time> in <a href="https://lfbossa.github.io/category/cursos.html">cursos</a></p>
+                <li><a class="nav__link" href="https://lfbossa.github.io">Home</a></li>
 
 
-        <p class="uk-article-lead" itemprop="description">Minicurso de LaTeX ministrado na Semana Acadêmica de Matemática, Agosto de 2019.</p>
-        <section itemprop="articleBody"><h1>Uma Introdução Interativa do LaTeX</h1>
-<h2>Coisas importantes</h2>
-<ul>
-<li><a href="https://www.overleaf.com/">Site do Overleaf</a></li>
-<li><a href="https://www.overleaf.com/learn">Documentação do Overleaf</a> (em inglês)</li>
-<li>
-<p>Slides da palestra:</p>
+        </ul>
+    </nav>
+
+    <p class="social">
+                <a href="https://github.com/lfbossa" target="_blank"><img
+                        src="https://lfbossa.github.io/theme/images/icons/github.png"></a>
+                <a href="https://twitter.com/AulascomBossa" target="_blank"><img
+                        src="https://lfbossa.github.io/theme/images/icons/twitter.png"></a>
+            <a href="https://lfbossa.github.io/feeds/all.atom.xml" rel="alternate">
+                <img src="https://lfbossa.github.io/theme/images/icons/rss.png"></a>
+    </p>
+
+        <h2>Categorias</h2>
+        <ul class="navbar">
+                <li class="active"><a
+                        href="https://lfbossa.github.io/category/cursos.html">cursos</a></li>
+        </ul>
+
+        <h2 class="blog_roll_link"><br/>Linkzera</h2>
+        <ul class="navbar">
+                <li><a href="http://getpelican.com/">Pelican</a></li>
+                <li><a href="http://python.org/">Python.org</a></li>
+                <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+        </ul>
+
+</aside>
+
+<!-- Content -->
+<article>
+    <section id="content">
+        <article>
+            <h2 class="post_title post_detail"><a href="https://lfbossa.github.io/minicurso-latex.html" rel="bookmark"
+                                                  title="Permalink to Uma Introdução Interativa do LaTeX">Uma Introdução Interativa do LaTeX</a></h2>
+            <div class="entry-content blog-post">
+                <h1>Uma Introdução Interativa do LaTeX</h1>
+<p>Seja bem-vindo ao minicurso de LaTeX da Semana Acadêmica da Matemática. $\frac{1}{2}$</p>
+<p>Após concluir o curso, deixe seu <strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSdayFIn72lQstFI7rWDbkfTbnhsojs9ZoM4Rqzq75Nx0qDdzQ/viewform?usp=sf_link">Feedback</a></strong>.</p>
+<h2>Slides</h2>
 <ul>
 <li><a href="https://lfbossa.github.io/pdf/part0.pdf">Parte 0</a>: Instruções iniciais</li>
 <li><a href="https://lfbossa.github.io/pdf/part1.pdf">Parte 1</a>: O Básico</li>
 <li><a href="https://lfbossa.github.io/pdf/part2.pdf">Parte 2</a>: Documentos Estruturados &amp; muito mais</li>
 <li><a href="https://lfbossa.github.io/pdf/part3.pdf">Parte 3</a>: Não apenas Artigos: Apresentações &amp; Mais</li>
 </ul>
-</li>
-</ul>
-<p>Seja bem-vindo ao minicurso de LaTeX da Semana Acadêmica da Matemática.</p>
-<p>Após concluir o curso, deixe seu <a href="https://docs.google.com/forms/d/e/1FAIpQLSdayFIn72lQstFI7rWDbkfTbnhsojs9ZoM4Rqzq75Nx0qDdzQ/viewform?usp=sf_link">Feedback</a>.</p>
+<h2>Links úteis</h2>
 <ul>
+<li><a href="https://www.overleaf.com/">Site do Overleaf</a></li>
+<li><a href="https://www.overleaf.com/learn">Documentação do Overleaf</a> (em inglês)</li>
 <li><a href="https://www.overleaf.com/read/wfpnzzgcbqnk">Documento que vou colocar alguns comandos extra</a></li>
-</ul>
-<p>Links úteis</p>
-<ul>
 <li><a href="https://lfbossa.github.io/pdf/latexsheet.pdf">Colinha de LaTeX</a></li>
 <li><a href="https://hartwork.org/beamer-theme-matrix/">Beamer Theme Matrix</a></li>
 <li><a href="https://www.ctan.org/pkg/enumitem"><code>enumitem</code> package</a></li>
-</ul></section>
-        <hr class="uk-article-divider">
-    </article>
-
-
-</div>
-
-        <div class="uk-width-medium-1-5 uk-hidden-small">
-
-            <div class="uk-panel uk-panel-box">
-                <form class="uk-search" action="search.html" data-uk-search>
-                    <input class="uk-search-field tipue_search" type="search" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search...">
-                </form>
+</ul>
             </div>
+            <div class="post_list">
+                <span>By </span>
+                <a href="https://lfbossa.github.io/author/luiz-fernando-bossa.html">@Luiz Fernando Bossa</a>
+                <span> in </span>
+                <span class="post_category"><a href="https://lfbossa.github.io/category/cursos.html" rel="bookmark"
+                                               title="Permalink to cursos">[ cursos ]</a></span>
+                <span class="post_date">sex 16 agosto 2019</span>
+                <div><span>Tags : </span>
+                            <span><a href="https://lfbossa.github.io/tag/latex.html">#latex, </a></span>
+                            <span><a href="https://lfbossa.github.io/tag/tutorial.html">#tutorial, </a></span>
+                </div>
 
-            <div class="uk-panel uk-panel-box">
-                <ul class="uk-nav uk-nav-side">
-                    <li class="uk-nav-header">Categories</li>
-                    <li class="uk-active"><a href="https://lfbossa.github.io/category/cursos.html">cursos</a></li>
-                    <li class="uk-nav-header">Pages</li>
+                <div class="entry-social">
+                    <span class="twitter"><a target="_blank" rel="nofollow"
+                                             onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=700');return false;"
+                                             title="Twitter"
+                                             href="https://twitter.com/share?url=https://lfbossa.github.io/minicurso-latex.html&text=Uma Introdução Interativa do LaTeX&via="><img
+                            src="https://lfbossa.github.io/theme/images/icons/twitter-s.png"></a></span>
 
+                    <span class="gplus"><a target="_blank" title="Google +"
+                                           href="https://plus.google.com/share?url=https://lfbossa.github.io/minicurso-latex.html&hl=fr"
+                                           rel="nofollow"
+                                           onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=450,width=650');return false;"><img
+                            src="https://lfbossa.github.io/theme/images/icons/google-s.png"></a></span>
 
+                    <span class="facebook"><a target="_blank" title="Facebook" rel="nofollow"
+                                              onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=700');return false;"
+                                              href="https://www.facebook.com/sharer.php?u=https://lfbossa.github.io/minicurso-latex.html&t=Uma Introdução Interativa do LaTeX"><img
+                            src="https://lfbossa.github.io/theme/images/icons/facebook-s.png"></a></span>
 
-                    <li class="uk-nav-divider"></li>
-                    <li ><a href="https://lfbossa.github.io/archives.html">Archives</a></li>
-                </ul>
+                    <a target="_blank" title="Linkedin"
+                       href="https://www.linkedin.com/shareArticle?mini=true&url=https://lfbossa.github.io/minicurso-latex.html&title=Uma Introdução Interativa do LaTeX"
+                       rel="nofollow"
+                       onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=450,width=650');return false;"><img
+                            src="https://lfbossa.github.io/theme/images/icons/linkedin-s.png"></a>
+
+                    <span class="mail"><a
+                            href="mailto:?subject=Uma Introdução Interativa do LaTeX&amp;body=Viens découvrir un article à propos de [Uma Introdução Interativa do LaTeX] sur le site de Luiz Fernando Bossa. https://lfbossa.github.io/minicurso-latex.html"
+                            title="Share by Email" target="_blank"><img
+                            src="https://lfbossa.github.io/theme/images/icons/mail-s.png"></a></span>
+                </div>
             </div>
+        </article>
+    </section>
+</article>
 
-            <div class="uk-panel uk-panel-box">
-                <h3 class="uk-panel-title">Receive Updates</h3>
-                <a rel="alternate" type="application/atom+xml" href="https://lfbossa.github.io/feeds/all.atom.xml" class="mg-feed"><i class="uk-icon-rss uk-icon-medium"></i> ATOM</a>
-            </div>
-
-            <div class="uk-panel uk-panel-box">
-                <h3 class="uk-panel-title">Contacts</h3>
-                <a class="mg-icon-link" href="#">
-                    <i class="uk-icon-You can add links in your config file uk-icon-medium"></i>
-                </a>
-                <a class="mg-icon-link" href="#">
-                    <i class="uk-icon-Another social link uk-icon-medium"></i>
-                </a>
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-</main>
-
-<footer class="mg-footer">
-    <div class="uk-container uk-container-center uk-text-center">
-
-        <div class="mg-icons-small uk-subnav uk-visible-small">
-            <li><a rel="alternate" type="application/atom+xml" href="https://lfbossa.github.io/feeds/all.atom.xml" class="uk-icon-button uk-icon-rss"></a></li>
-            <li>
-                <a href="#" class="uk-icon-button uk-icon-You can add links in your config file"></a>
-            </li>
-            <li>
-                <a href="#" class="uk-icon-button uk-icon-Another social link"></a>
-            </li>
-        </div>
-
-        <div class="mg-author uk-panel">
-            <p></p>
-
-            <p>Powered by <a href="http://blog.getpelican.com">Pelican</a>.<br class="uk-visible-small"> Theme <a href="https://github.com/lucachr/pelican-mg">mg</a> by <a href="https://github.com/lucachr">Luca Chiricozzi</a>.</p>
-        </div>
-    </div>
-</footer>
-
-<div id="mg-offcanvas" class="uk-offcanvas">
-    <div class="uk-offcanvas-bar">
-
-        <form class="uk-search" action="search.html" data-uk-search>
-            <input class="uk-search-field" type="search" name="q" id="tipue_search_input" autocomplete="off" placeholder="Search...">
-        </form>
-
-        <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
-            <li class="uk-nav-header">Categories</li>
-            <li class="uk-active"><a href="https://lfbossa.github.io/category/cursos.html">cursos</a></li>
-            <li class="uk-nav-header">Pages</li>
-
-
-            <li class="uk-nav-divider"></li>
-            <li><a href="https://lfbossa.github.io/">Archives</a></li>
-        </ul>
-    </div>
-</div>
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/uikit/2.23.0/js/uikit.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/uikit/2.23.0/js/components/search.min.js"></script>
-<script src="https://lfbossa.github.io/theme/js/tipuesearch_set.js"></script>
-<script src="https://lfbossa.github.io/theme/js/tipuesearch.js"></script>
-<script src="https://lfbossa.github.io/theme/js/jquery.sticky-kit.js"></script>
-<script src="https://lfbossa.github.io/theme/js/plugins.js"></script>
-<script src="https://lfbossa.github.io/theme/js/main-search.js"></script>
-
+<!-- Footer -->
+    <footer>
+        <p>
+            Blog powered by <a href="http://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a href="http://python.org">Python</a>.
+            Theme <a href="https://github.com/parbhat/pelican-blue">Pelican-Blue</a> by <a
+                href="https://parbhatpuri.com/">@parbhat</a>.
+        </p>
+    </footer>
 
 
 </body>
