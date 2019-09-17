@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Site do Bossa</title><link href="https://lfbossa.github.io/" rel="alternate"></link><link href="https://lfbossa.github.io/feeds/all.atom.xml" rel="self"></link><id>https://lfbossa.github.io/</id><updated>2019-08-16T11:15:00-03:00</updated><entry><title>Uma Introdução Interativa do LaTeX</title><link href="https://lfbossa.github.io/minicurso-latex.html" rel="alternate"></link><published>2019-08-16T11:15:00-03:00</published><updated>2019-08-16T11:15:00-03:00</updated><author><name>Luiz Fernando Bossa</name></author><id>tag:lfbossa.github.io,2019-08-16:/minicurso-latex.html</id><summary type="html">&lt;p&gt;Minicurso de &lt;code&gt;LaTeX&lt;/code&gt; ministrado na Semana Acadêmica de Matemática, Agosto de 2019.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Uma Introdução Interativa do LaTeX&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Site do Bossa</title><link href="https://lfbossa.github.io/" rel="alternate"></link><link href="https://lfbossa.github.io/feeds/all.atom.xml" rel="self"></link><id>https://lfbossa.github.io/</id><updated>2019-09-16T18:04:00-03:00</updated><entry><title>Lógica de programação com Python</title><link href="https://lfbossa.github.io/logica-programacao-python.html" rel="alternate"></link><published>2019-09-16T18:04:00-03:00</published><updated>2019-09-16T18:04:00-03:00</updated><author><name>Luiz Fernando Bossa</name></author><id>tag:lfbossa.github.io,2019-09-16:/logica-programacao-python.html</id><summary type="html">&lt;p&gt;Minicurso de lógica de programação usando Python.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Lógica de programação com Python&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://forms.gle/7UEFVbdGDRRo5rdh9"&gt;Formulário de inscrição&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Slides&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://hackmd.io/@lfbossa/rkHNAwTSS"&gt;Aula 01 - Engatinhando&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hackmd.io/@lfbossa/rywlDZE8H"&gt;Aula 02 - Caminhando&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hackmd.io/@lfbossa/B1cdEZxLS"&gt;Aula 03 - Correndo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Links úteis&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://repl.it/languages/python3"&gt;repl.it&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/"&gt;python.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="#"&gt;Formulário de feedback&lt;/a&gt;&lt;/p&gt;</content><category term="python"></category><category term="programação"></category><category term="tutorial"></category></entry><entry><title>Uma Introdução Interativa do LaTeX</title><link href="https://lfbossa.github.io/minicurso-latex.html" rel="alternate"></link><published>2019-08-16T11:15:00-03:00</published><updated>2019-08-16T11:15:00-03:00</updated><author><name>Luiz Fernando Bossa</name></author><id>tag:lfbossa.github.io,2019-08-16:/minicurso-latex.html</id><summary type="html">&lt;p&gt;Minicurso de &lt;code&gt;LaTeX&lt;/code&gt; ministrado na Semana Acadêmica de Matemática, Agosto de 2019.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Uma Introdução Interativa do LaTeX&lt;/h1&gt;
 &lt;h2&gt;Coisas importantes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.overleaf.com/"&gt;Site do Overleaf&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://www.overleaf.com/learn"&gt;Documentação do Overleaf&lt;/a&gt; (em inglês)&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.overleaf.com/learn"&gt;Documentação do Overleaf&lt;/a&gt; (em inglês)&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Slides da palestra:&lt;/p&gt;
 &lt;ul&gt;
