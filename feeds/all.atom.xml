@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Site do Bossa</title><link href="https://lfbossa.github.io/" rel="alternate"></link><link href="https://lfbossa.github.io/feeds/all.atom.xml" rel="self"></link><id>https://lfbossa.github.io/</id><updated>2019-09-16T18:04:00-03:00</updated><entry><title>Lógica de programação com Python</title><link href="https://lfbossa.github.io/logica-programacao-python.html" rel="alternate"></link><published>2019-09-16T18:04:00-03:00</published><updated>2019-09-16T18:04:00-03:00</updated><author><name>Luiz Fernando Bossa</name></author><id>tag:lfbossa.github.io,2019-09-16:/logica-programacao-python.html</id><summary type="html">&lt;p&gt;Minicurso de lógica de programação usando Python.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Lógica de programação com Python&lt;/h1&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;datas&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;2019-09-30&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;2019-10-02&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;2019-10-04&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;span class="n"&gt;horarios&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;16h-18h&amp;#39;&lt;/span&gt;
-&lt;span class="n"&gt;local&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; 
-&lt;/pre&gt;&lt;/div&gt;
-
-
 &lt;h2&gt;Datas&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Datas: 30/09, 02/10, 04/10&lt;/li&gt;
