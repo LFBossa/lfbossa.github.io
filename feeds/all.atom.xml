@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Site do Bossa</title><link href="https://lfbossa.github.io/" rel="alternate"></link><link href="https://lfbossa.github.io/feeds/all.atom.xml" rel="self"></link><id>https://lfbossa.github.io/</id><updated>2019-09-16T18:04:00-03:00</updated><entry><title>Lógica de programação com Python</title><link href="https://lfbossa.github.io/logica-programacao-python.html" rel="alternate"></link><published>2019-09-16T18:04:00-03:00</published><updated>2019-09-16T18:04:00-03:00</updated><author><name>Luiz Fernando Bossa</name></author><id>tag:lfbossa.github.io,2019-09-16:/logica-programacao-python.html</id><summary type="html">&lt;p&gt;Minicurso de lógica de programação usando Python.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Lógica de programação com Python&lt;/h1&gt;
-&lt;h2&gt;Datas&lt;/h2&gt;
+&lt;h2&gt;O que, quando, onde&lt;/h2&gt;
+&lt;p&gt;Minicurso de introdução à lógica de programação, voltado principalmente ao público sem nenhuma experiência prévia com programação. Não será necessário instalar nenhum programa, rodaremos todos os códigos na nuvem.&lt;/p&gt;
+&lt;h3&gt;Datas&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Datas: 30/09, 02/10, 04/10&lt;/li&gt;
-&lt;li&gt;Horário: 16h--18h&lt;/li&gt;
-&lt;li&gt;Local: &lt;code&gt;xyz&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;30/09  (seg) &lt;/li&gt;
+&lt;li&gt;02/10  (qua) &lt;/li&gt;
+&lt;li&gt;04/10  (sex) &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3&gt;Horário: 16h-18h&lt;/h3&gt;
+&lt;h3&gt;Local: &lt;code&gt;xyz&lt;/code&gt;&lt;/h3&gt;
 &lt;h2&gt;&lt;a href="https://forms.gle/7UEFVbdGDRRo5rdh9"&gt;Formulário de inscrição&lt;/a&gt;&lt;/h2&gt;
 &lt;h2&gt;Slides&lt;/h2&gt;
 &lt;ul&gt;
@@ -17,9 +21,10 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://repl.it/languages/python3"&gt;repl.it&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.python.org/"&gt;python.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://repl.it/community/classrooms/150657"&gt;sala de aula no repl.it&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;&lt;a href="#"&gt;Formulário de feedback&lt;/a&gt;&lt;/h2&gt;</content><category term="python"></category><category term="programação"></category><category term="tutorial"></category></entry><entry><title>Uma Introdução Interativa do LaTeX</title><link href="https://lfbossa.github.io/minicurso-latex.html" rel="alternate"></link><published>2019-08-16T11:15:00-03:00</published><updated>2019-08-16T11:15:00-03:00</updated><author><name>Luiz Fernando Bossa</name></author><id>tag:lfbossa.github.io,2019-08-16:/minicurso-latex.html</id><summary type="html">&lt;p&gt;Minicurso de &lt;code&gt;LaTeX&lt;/code&gt; ministrado na Semana Acadêmica de Matemática, Agosto de 2019.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Uma Introdução Interativa do LaTeX&lt;/h1&gt;
-&lt;p&gt;Seja bem-vindo ao minicurso de LaTeX da Semana Acadêmica da Matemática. $\frac{1}{2}$&lt;/p&gt;
+&lt;h2&gt;&lt;a href="https://forms.gle/XoWXqvgwXMEZb7Wj6"&gt;Formulário de feedback&lt;/a&gt;&lt;/h2&gt;</content><category term="python"></category><category term="programação"></category><category term="tutorial"></category></entry><entry><title>Uma Introdução Interativa do LaTeX</title><link href="https://lfbossa.github.io/minicurso-latex.html" rel="alternate"></link><published>2019-08-16T11:15:00-03:00</published><updated>2019-08-16T11:15:00-03:00</updated><author><name>Luiz Fernando Bossa</name></author><id>tag:lfbossa.github.io,2019-08-16:/minicurso-latex.html</id><summary type="html">&lt;p&gt;Minicurso de &lt;code&gt;LaTeX&lt;/code&gt; ministrado na Semana Acadêmica de Matemática, Agosto de 2019.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Uma Introdução Interativa do LaTeX&lt;/h1&gt;
+&lt;p&gt;Seja bem-vindo ao minicurso de LaTeX da Semana Acadêmica da Matemática. &lt;/p&gt;
 &lt;p&gt;Após concluir o curso, deixe seu &lt;strong&gt;&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSdayFIn72lQstFI7rWDbkfTbnhsojs9ZoM4Rqzq75Nx0qDdzQ/viewform?usp=sf_link"&gt;Feedback&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2&gt;Slides&lt;/h2&gt;
 &lt;ul&gt;
